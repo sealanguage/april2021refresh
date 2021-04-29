@@ -6,6 +6,7 @@ with open('input00.txt') as f:
     print("with lines: ", lines)
 
     for line in f:
+        line.split(' ')
         print('line in f: ', line)
         # key, val = line.split()
         # d[str(key)] = int(val)
@@ -14,7 +15,15 @@ with open('input00.txt') as f:
 
 for line in open('input00.txt'):
     lines = line.split("\t")
-    print(lines)
+    for word in lines:
+        words = word.split(' ')
+        print("words: ", words)
+        for item in words:
+            print(words[item])
+    print("lines: ", lines)
+
+
+    # print("lines[0] ;", lines[0])
     # for row in lines:
     #     listitems = lines.split()
     #     print('listitmes: ', listitems)
