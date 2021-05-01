@@ -1,4 +1,3 @@
-
 d = {}
 
 with open('input00.txt') as f:
@@ -14,12 +13,12 @@ with open('input00.txt') as f:
 # print(d)
 
 for line in open('input00.txt'):
-    lines = line.split("\t")
+    lines = line.split("\t")   # words and lines are the same thing here
     for word in lines:
-        words = word.split(' ')
+        words = word.split(' ')  # words and lines are the same thing here
         print("words: ", words)
-        for item in words:
-            print(words[item])
+        # for item in words:
+        #     print(words[item])
     print("lines: ", lines)
 
 
@@ -27,4 +26,3 @@ for line in open('input00.txt'):
     # for row in lines:
     #     listitems = lines.split()
     #     print('listitmes: ', listitems)
-
