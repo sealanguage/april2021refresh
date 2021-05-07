@@ -4,13 +4,15 @@ myd['sam'] = 99912222
 myd['tom'] = 11122222
 myd['harry'] = 12299933
 
-#  'sam' : 2223456, 'edward' : 1234321,
+
 print(myd)
 print(myd.keys())
 print(myd.values())
 
 
-ininfo = ['sam 99912222\n', 'tom 11122222\n', 'harry 12299933\n']
+ininfo = ['sam, 99912222\n', 'tom, 11122222\n', 'harry, 12299933\n']
+
+
 
 
 
