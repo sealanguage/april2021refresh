@@ -1,13 +1,13 @@
 myd = {}
 
-myd['sam'] = 99912222
-myd['tom'] = 11122222
-myd['harry'] = 12299933
-
-
-print(myd)
-print(myd.keys())
-print(myd.values())
+# loading the dictionary manually:
+# myd['sam'] = 99912222
+# myd['tom'] = 11122222
+# myd['harry'] = 12299933
+#
+# print(myd)
+# print(myd.keys())
+# print(myd.values())
 
 
 ininfo = ['sam, 99912222\n', 'tom, 11122222\n', 'harry, 12299933\n']
@@ -39,9 +39,12 @@ for line in open('input00.txt'):
     for word in lines:
         words = word.split(' ')  # words and lines are the same thing here
         # print("words: ", words)
-        # for item in words:
-        #     print(words[item])
-    # print("lines: ", lines)
+        for item in words:
+            print("item: ", item)
+
+
+
+
 
 
     # print("lines[0] ;", lines[0])
@@ -49,16 +52,16 @@ for line in open('input00.txt'):
     #     listitems = lines.split()
     #     print('listitmes: ', listitems)
 
-
-my_dict = {"Name":[],"Address":[],"Age":[]};
-
-my_dict["Name"].append("Guru")
-my_dict["Address"].append("Mumbai")
-my_dict["Age"].append(30)
-# print(my_dict)
-print(my_dict.values())
-print(my_dict.keys())
-# print(my_dict.get("Age"))
+#
+# my_dict = {"Name":[],"Address":[],"Age":[]};
+#
+# my_dict["Name"].append("Guru")
+# my_dict["Address"].append("Mumbai")
+# my_dict["Age"].append(30)
+# # print(my_dict)
+# print(my_dict.values())
+# print(my_dict.keys())
+# # print(my_dict.get("Age"))
 # print(my_dict.get(30))  # answer is none
 # print(my_dict.fromkeys('Name'))
 
