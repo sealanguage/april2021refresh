@@ -40,6 +40,7 @@ for line in open('input00.txt'):
         words = word.split(' ')  # words and lines are the same thing here
         # print("words: ", words)
         for item in words:
+            if item
             print("item: ", item)
 
 

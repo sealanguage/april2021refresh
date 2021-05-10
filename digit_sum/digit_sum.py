@@ -20,9 +20,16 @@ import sys
 def superDigit(n, k):
     # Write your code here
     one = 1
+    sum = 0
     res = [int(n[idx: idx + one]) for idx in range(0, len(n), one)]
 
+    for i in res:
+        sum = sum + i
+
+    print(sum)
+
     print(k, res)
+    return
 
     #  iterate through res ad add each number together
 
