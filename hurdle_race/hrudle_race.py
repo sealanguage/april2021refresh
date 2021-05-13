@@ -18,7 +18,7 @@ import sys
 
 def hurdleRace(k, height):
     # Write your code here
-    highest = max(height) - k;
+    highest = max(height) - k
     if highest < 0:
         highest = 0
     return highest

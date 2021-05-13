@@ -14,10 +14,6 @@ ininfo = ['sam, 99912222\n', 'tom, 11122222\n', 'harry, 12299933\n']
 
 
 
-
-
-
-
 # for i in ininfo.split():
 #     print((i))
 
@@ -39,8 +35,10 @@ for line in open('input00.txt'):
     for word in lines:
         words = word.split(' ')  # words and lines are the same thing here
         # print("words: ", words)
+
+        if words
         for item in words:
-            if item
+            # if item
             print("item: ", item)
 
 
