@@ -22,24 +22,30 @@ def superDigit(n, k):
     one = 1
     sum = 0
     res = [int(n[idx: idx + one]) for idx in range(0, len(n), one)]
-    holder = []
-    holderStack = []
+    # holder = []
+    # holderStack = []
     count = 0
+    print(k, res)
+    contained = res
+    print('contained ', contained)
 
     # def addToSum():
 
     #  This works to add the numbers in the initial res
-    for count in range(k):  # count is 0 0 0 1 1 1 2 2 2
-        for i in res:
+    for count in range(k):  # count is 0 0 0 1 1 1 2 2 2, getting input 3 times
+        for i in contained:
             sum = sum + i
             print("count ", count)
 
-            # if sum < 10:
-            #     print(sum)
-            # else:
-            #     sum = res = sum
-        print(sum)
-        print('res ', res)
+            if sum < 10:
+                print(sum)
+            else:
+                print('sum more than 10')
+                # [int(i) for i in str(12345)]
+                #  list(str(12345))
+                res = list(str(sum))
+        print(res)
+        print('contained ', contained)
 
         # holderStack.append(i)
         # print("hS ", holderStack)
@@ -57,33 +63,3 @@ def superDigit(n, k):
     # print("hS2 ", holderStack)
 
     # print(k, res)
-
-    # for val in range(sum):
-    #     holderStack.append(val)
-    # print(holderStack)
-    # for i in range(sum):
-    #     holder.append(i)
-    # check = len(str(sum))
-    # if check > 1:
-    #     return
-    # write this as a function then call the function again here till check length is 1
-
-    #  iterate through res ad add each number together
-
-    return 0  # superDigit(varforn, varfork)
-
-
-if __name__ == '__main__':
-    fptr = open(os.environ['OUTPUT_PATH'], 'w')
-
-    first_multiple_input = input().rstrip().split()
-
-    n = first_multiple_input[0]
-
-    k = int(first_multiple_input[1])
-
-    result = superDigit(n, k)
-
-    fptr.write(str(result) + '\n')
-
-    fptr.close()
