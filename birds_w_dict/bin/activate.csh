@@ -8,7 +8,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV "/Users/owner1/Documents/docs/careerdevs/pycharm_projects/april2021refresh/april2021refresh/inheritance_scoring_tests"
+setenv VIRTUAL_ENV "/Users/owner1/Documents/docs/careerdevs/pycharm_projects/april2021refresh/april2021refresh/birds_w_dict"
 
 set _OLD_VIRTUAL_PATH="$PATH"
 setenv PATH "$VIRTUAL_ENV/bin:$PATH"
@@ -17,8 +17,8 @@ setenv PATH "$VIRTUAL_ENV/bin:$PATH"
 set _OLD_VIRTUAL_PROMPT="$prompt"
 
 if (! "$?VIRTUAL_ENV_DISABLE_PROMPT") then
-    if ("inheritance_scoring_tests" != "") then
-        set env_name = "inheritance_scoring_tests"
+    if ("birds_w_dict" != "") then
+        set env_name = "birds_w_dict"
     else
         if (`basename "VIRTUAL_ENV"` == "__") then
             # special case for Aspen magic directories

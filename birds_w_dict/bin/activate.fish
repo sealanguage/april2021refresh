@@ -29,7 +29,7 @@ end
 # unset irrelevant variables
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/Users/owner1/Documents/docs/careerdevs/pycharm_projects/april2021refresh/april2021refresh/inheritance_scoring_tests"
+set -gx VIRTUAL_ENV "/Users/owner1/Documents/docs/careerdevs/pycharm_projects/april2021refresh/april2021refresh/birds_w_dict"
 
 set -gx _OLD_VIRTUAL_PATH $PATH
 set -gx PATH "$VIRTUAL_ENV/bin" $PATH
@@ -52,8 +52,8 @@ if test -z "$VIRTUAL_ENV_DISABLE_PROMPT"
         set -l old_status $status
 
         # Prompt override?
-        if test -n "(inheritance_scoring_tests) "
-            printf "%s%s" "(inheritance_scoring_tests) " (set_color normal)
+        if test -n "(birds_w_dict) "
+            printf "%s%s" "(birds_w_dict) " (set_color normal)
         else
             # ...Otherwise, prepend env
             set -l _checkbase (basename "$VIRTUAL_ENV")

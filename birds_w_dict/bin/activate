@@ -37,7 +37,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/Users/owner1/Documents/docs/careerdevs/pycharm_projects/april2021refresh/april2021refresh/inheritance_scoring_tests"
+VIRTUAL_ENV="/Users/owner1/Documents/docs/careerdevs/pycharm_projects/april2021refresh/april2021refresh/birds_w_dict"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
@@ -54,8 +54,8 @@ fi
 
 if [ -z "${VIRTUAL_ENV_DISABLE_PROMPT:-}" ] ; then
     _OLD_VIRTUAL_PS1="${PS1:-}"
-    if [ "x(inheritance_scoring_tests) " != x ] ; then
-	PS1="(inheritance_scoring_tests) ${PS1:-}"
+    if [ "x(birds_w_dict) " != x ] ; then
+	PS1="(birds_w_dict) ${PS1:-}"
     else
     if [ "`basename \"$VIRTUAL_ENV\"`" = "__" ] ; then
         # special case for Aspen magic directories
