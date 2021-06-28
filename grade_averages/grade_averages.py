@@ -12,10 +12,14 @@ if __name__ == '__main__':
     # print(len(scores))
     # print(student_marks)
 
-    avg_score = 0
+    avg_score = float(0)
     final_grade = float(0)
 
     for score in scores:
         avg_score = avg_score + score
-        final_grade = avg_score / len(scores)
-        print(final_grade)
+
+        avg_grade = avg_score / len(scores)
+        # final_grade = str(format(avg_grade, '.2f'))
+    print(str(format(avg_grade, '.2f')))
+
+
